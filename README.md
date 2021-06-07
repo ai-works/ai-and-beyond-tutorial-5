@@ -21,10 +21,18 @@ Final Material
     |           ├── Classification_Performance_3_Clients_non_iid.ipynb	<- plot classification performance for all clients and global model
     |           ├── Explanation_Performance_FL_3_clients_non_iid.ipynb		<- generate heatmaps via SHAP value for all saved models
     |           ├── FL_3_clients_non_iid.ipynb		<- train models in the FL 3 Clients scenario
-    |    ├── FL 3 Clients 		<- code for the three clients FL scenario (non-iid)
-    |           ├── Classification_Performance_3_Clients_non_iid.ipynb	<- plot classification performance for all clients and global model
-    |           ├── Explanation_Performance_FL_3_clients_non_iid.ipynb		<- generate heatmaps via SHAP value for all saved models
-    |           ├── FL_3_clients_non_iid.ipynb		<- train models in the FL 3 Clients scenario
+    |    ├── FL 5 Clients 		<- code for the five clients FL scenario (non-iid)
+    |           ├── Classification_Performance_5_Clients_non_iid.ipynb	<- plot classification performance for all clients and global model
+    |           ├── Explanation_Performance_FL_5_clients_non_iid.ipynb		<- generate heatmaps via SHAP value for all saved models
+    |           ├── FL_5_clients_non_iid.ipynb		<- train models in the FL 3 Clients scenario
+    ├── Results
+    |    ├── Classification Performance 		<- Folder that contains the images for the classification results used in the thesis
+    |    ├── Explainability Performance 		<- Folder that contains the images for the explainability performance results used in the thesis
+    |           ├── BenchmarkNet			<- train BenchmarkNet
+    |                  ├── Appendix	<- contains the images of the Benchmark in the appendix
+    |                  ├── Results Section	<- contains the images of the Benchmark in the Results Section
+    |           ├── Explanation_Performance_BenchmarkNet.ipynb		<- generate heatmaps via SHAP value for all saved models 
+    |           ├── Explanation_Performance_BenchmarkNet.ipynb		<- generate heatmaps via SHAP value for all saved models 
     
     |    ├── noisy_label					
     |           ├── flip_arrays					
@@ -35,30 +43,6 @@ Final Material
     |           ├── knn_shap_calculation_flip.py<- src for calculating KNN-Shapley values for flipped data
     |           ├── label_detection.py		<- src for detecting noisy label experiment
     |           ├── utils.py			<- src for utils of knnn_shap_calculation_flip.py and generate_flip_data.py
-```
-
-Code to plot the results
-```
-Plotting results
-    ├── plot_results						
-    |    ├── model
-    |           ├── loss_plot.py		<- src for plotting Figure 2
-    |           ├── auroc_plot.py		<- src for plotting Figure 3
-    |           ├── pred.npy			<- stores predicted labels of trained model on validation set
-    |           ├── true.npy			<- stores true labels of validation set
-
-    |    ├── runtime_plot.py			<- src for plotting Figure 4
-    
-    |    ├── point_removal
-    |           ├── point_removal_plot.py	<- src for plotting Figure 6
-    |           ├── val_result_HtoL.npz		<- stores results from applications/point_removal/point_removal.py
-    
-    |    ├── label_detection					
-    |           ├── label_plot.py		<- src for plotting Figure 7				
-    |           ├── f_knn.pkl			<- stores information about fraction of incorrect labels detected
-    |           ├── f_random.pkl		<- stores information about fraction of incorrect labels detected
-    |           ├── x_knn.pkl			<- stores information about fraction of data inspected
-    |           ├── x_random.pkl		<- stores information about fraction of data inspected
 ```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
