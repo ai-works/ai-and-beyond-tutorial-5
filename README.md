@@ -1,7 +1,7 @@
 Project Organization
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-Description of the folder structure with all data
+Description of the folder structure and the respective contents
 ```
 Final Material
     ├── Code
@@ -39,15 +39,7 @@ Final Material
     |           ├── FL 5 Clients			<- contains the heatmaps of FL 5 Clients Scenario used in the thesis
     |                  ├── Appendix	<- contains the images of the FL 5 Clients Scenario in the appendix
     |                  ├── Results Section	<- contains the images of the FL 5 Clients Scenario in the Results Section   
-    |    ├── noisy_label					
-    |           ├── flip_arrays					
-    |                  ├── deep_features	<- stores the new deep features for flipped data created with get_new_deep.py
-    |                  ├── raw_data		<- stores the flipped raw data created with generate_data.py
-    |           ├── generate_flip_data.py	<- src for generating and storing flipped data in arrays
-    |           ├── get_deep_flip.py		<- src for training, obtaining and storing deep features of flipped data in arrays
-    |           ├── knn_shap_calculation_flip.py<- src for calculating KNN-Shapley values for flipped data
-    |           ├── label_detection.py		<- src for detecting noisy label experiment
-    |           ├── utils.py			<- src for utils of knnn_shap_calculation_flip.py and generate_flip_data.py
+    ├── Tex - Master Thesis 		<- contains the .tex files 
 ```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
