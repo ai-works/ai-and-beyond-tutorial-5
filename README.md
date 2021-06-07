@@ -28,12 +28,16 @@ Final Material
     ├── Results
     |    ├── Classification Performance 		<- Folder that contains the images for the classification results used in the thesis
     |    ├── Explainability Performance 		<- Folder that contains the images for the explainability performance results used in the thesis
-    |           ├── BenchmarkNet			<- train BenchmarkNet
+    |           ├── BenchmarkNet			<- contains the heatmaps of BenchmarkNet used in the thesis
     |                  ├── Appendix	<- contains the images of the Benchmark in the appendix
     |                  ├── Results Section	<- contains the images of the Benchmark in the Results Section
-    |           ├── Explanation_Performance_BenchmarkNet.ipynb		<- generate heatmaps via SHAP value for all saved models 
-    |           ├── Explanation_Performance_BenchmarkNet.ipynb		<- generate heatmaps via SHAP value for all saved models 
-    
+    |           ├── detailed comparison - pneumonia and no pneumonia			<- contains the heatmaps in the detailed comparison section
+    |           ├── FL 3 Clients			<- contains the heatmaps of the FL 3 Clients Scenario used in the thesis
+    |                  ├── Appendix	<- contains the images of the FL 3 Clients Scenario in the appendix
+    |                  ├── Results Section	<- contains the images of the FL 3 Clients Scenario in the Results Section
+    |           ├── FL 5 Clients			<- contains the heatmaps of FL 5 Clients Scenario used in the thesis
+    |                  ├── Appendix	<- contains the images of the FL 5 Clients Scenario in the appendix
+    |                  ├── Results Section	<- contains the images of the FL 5 Clients Scenario in the Results Section   
     |    ├── noisy_label					
     |           ├── flip_arrays					
     |                  ├── deep_features	<- stores the new deep features for flipped data created with get_new_deep.py
