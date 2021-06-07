@@ -26,7 +26,8 @@ Final Material
     |           ├── Explanation_Performance_FL_5_clients_non_iid.ipynb		<- generate heatmaps via SHAP value for all saved models
     |           ├── FL_5_clients_non_iid.ipynb		<- train models in the FL 3 Clients scenario
     ├── Results
-    |    ├── Classification Performance 		<- Folder that contains the images for the classification results used in the thesis
+    |    ├── Classification Performance 		<- Folder that contains the images for the classification performance results used in the thesis
+    |    ├── Complete Results.pptx 		<- PowerPoint that contains the whole explainability evolution of the BenchmarkNet and the FL scenarios
     |    ├── Explainability Performance 		<- Folder that contains the images for the explainability performance results used in the thesis
     |           ├── BenchmarkNet			<- contains the heatmaps of BenchmarkNet used in the thesis
     |                  ├── Appendix	<- contains the images of the Benchmark in the appendix
