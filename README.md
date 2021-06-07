@@ -4,7 +4,7 @@ Project Organization
 Description of the folder structure and the respective contents
 ```
 Final Material
-    ├── Code
+    ├── Code 		<- code for the Thesis
     |    ├── Benchmark 		<- code for the BenchmarkNet
     |           ├── BenchmarkNet.ipynb			<- train BenchmarkNet
     |           ├── Explanation_Performance_BenchmarkNet.ipynb		<- generate heatmaps via SHAP value for all saved models 
@@ -25,7 +25,7 @@ Final Material
     |           ├── Classification_Performance_5_Clients_non_iid.ipynb	<- plot classification performance for all clients and global model
     |           ├── Explanation_Performance_FL_5_clients_non_iid.ipynb		<- generate heatmaps via SHAP value for all saved models
     |           ├── FL_5_clients_non_iid.ipynb		<- train models in the FL 3 Clients scenario
-    ├── Results
+    ├── Results 		<- contains the images used in the thesis as wel the images which were not used 
     |    ├── Classification Performance 		<- Folder that contains the images for the classification performance results used in the thesis
     |    ├── Complete Results.pptx 		<- PowerPoint that contains the whole explainability evolution of the BenchmarkNet and the FL scenarios
     |    ├── Explainability Performance 		<- Folder that contains the images for the explainability performance results used in the thesis
